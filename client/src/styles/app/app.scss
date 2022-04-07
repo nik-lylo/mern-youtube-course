@@ -1,0 +1,16 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  &__container {
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+}
+.dark__wrapper {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background: #272c44f0;
+}

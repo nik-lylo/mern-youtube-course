@@ -1,0 +1,25 @@
+.simple-button {
+  width: 100%;
+  height: 46px;
+  padding: 0px 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  border: none;
+}
+.simple-button:hover {
+  opacity: 0.8;
+}
+
+.simple-button:disabled {
+  background-color: rgba(128, 128, 128, 0.438) !important;
+  color: grey !important;
+  cursor: not-allowed;
+}

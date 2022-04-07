@@ -1,0 +1,56 @@
+@import "../app/helper.scss";
+.links {
+  width: 100%;
+  padding-top: 40px;
+}
+.table-links {
+  margin: 0 auto;
+  max-width: 70vw;
+}
+.table-links__navigate {
+  color: green;
+  text-decoration: none;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+thead {
+  height: 50px;
+  background: #272c44;
+  border-radius: 4px;
+  font-family: $font-display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #7088ac;
+  text-align: left;
+}
+thead th {
+  padding-left: 8px;
+}
+thead th:nth-child(1) {
+  width: 8%;
+}
+thead th:nth-child(2) {
+  width: 38%;
+}
+thead th:nth-child(3) {
+  width: 38%;
+}
+tbody td {
+  padding-left: 8px;
+}
+tbody {
+  font-family: $font-display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #94b3e2;
+}
+tbody tr {
+  height: 40px;
+  border-bottom: 1px solid #7088acba;
+}

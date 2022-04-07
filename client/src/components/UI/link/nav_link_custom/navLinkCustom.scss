@@ -1,0 +1,20 @@
+@import "../../../../styles/app/helper.scss";
+.nav-link-custom {
+  background: #242a43;
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-family: $font-display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  &_selected {
+    background: #103d9b !important;
+  }
+}
+.nav-link-custom:hover {
+  background: #2b3a76bd;
+}

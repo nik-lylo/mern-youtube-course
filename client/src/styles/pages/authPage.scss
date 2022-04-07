@@ -1,0 +1,53 @@
+@import "../../styles/app/helper.scss";
+
+.auth {
+  &__flex {
+    display: flex;
+    min-height: 100vh;
+  }
+  &__image {
+    flex: 1 1 50%;
+    background-color: $dark-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__registr {
+    flex: 1 1 50%;
+    background-color: $dark-much;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.registr-auth {
+  &__title {
+    font-family: $font-display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  &__form {
+    width: 100%;
+    max-width: 390px;
+  }
+  &__input {
+    margin-bottom: 20px;
+  }
+  &__signin {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  &__signup {
+    cursor: pointer;
+  }
+}
+
+.registr-auth__title {
+  font-family: $font-display;
+}

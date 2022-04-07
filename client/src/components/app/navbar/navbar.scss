@@ -1,0 +1,42 @@
+@import "../../../styles/app/helper.scss";
+
+.navbar {
+  width: 100%;
+  padding: 20px 20px;
+  background-color: $dark-much;
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: $font-display;
+    letter-spacing: 2px;
+    color: aliceblue;
+  }
+  &__btn {
+    background: #fd3162;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-family: $font-display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin-left: 30px;
+  }
+  &__btn:hover {
+    background: #fd31619e;
+  }
+  &__links {
+    *:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}

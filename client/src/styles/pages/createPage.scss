@@ -1,0 +1,26 @@
+@import "../app/helper.scss";
+.create {
+  height: calc(100vh - 99.942px);
+  width: 100%;
+  padding-top: 30px;
+
+  &__content {
+    max-width: 60vw;
+    margin: 0 auto;
+  }
+  &__title {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: $font-display;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  &__input {
+    max-width: 60vw;
+  }
+  &__btn {
+    max-width: 150px;
+    margin: 70px 0px 0px auto;
+  }
+}

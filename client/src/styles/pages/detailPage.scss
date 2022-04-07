@@ -1,0 +1,34 @@
+@import "../app/helper.scss";
+.detail {
+  width: 100%;
+}
+.card-detail {
+  margin: 50px 0px 0px 300px;
+  color: white;
+
+  &__title {
+    font-family: $font-display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 72px;
+  }
+  &__text {
+    font-family: $font-display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2;
+  }
+  &__text span {
+    margin-left: 15px;
+    font-size: 18px;
+    color: #94b3e2;
+  }
+  &__link {
+    margin-left: 15px;
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+  }
+}
